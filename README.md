@@ -3,6 +3,10 @@
 some text
 ```
 $ some commands
+$ install tomcat 7
+$ install java
+$ get WebGoat
+& put it into the folder
 ```
 some text
 
