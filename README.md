@@ -56,3 +56,5 @@ to do
 ![](https://github.com/filippodp/security.testing/blob/master/images/webscarab_logo.png "WebScarab" | width=70)
 ![](https://github.com/filippodp/security.testing/blob/master/images/webgoat_logo.png "WebGoat" | width=70)
 ![](https://github.com/filippodp/security.testing/blob/master/images/schoolmate_logo.png "SchoolMate" | width=70)
+<img src="https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png" alt="JWebUnit" height="70">
+
