@@ -13,7 +13,7 @@ $ rm apache-tomcat-7.0.82.tar.gz
 ```
 Now we have all setup, start tomcat using `catalina.sh`
 ```
-$ sh apache-tomcat-7.0.82/bim/catalina.sh start
+$ sh apache-tomcat-7.0.82/bin/catalina.sh start
 ```
 WebGoat is located at `localhost:8080/WebGoat/attack`, the uername and password are `guest` and `guest`. Enjoy haking!
 
