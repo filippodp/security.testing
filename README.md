@@ -5,7 +5,7 @@ WebGoat works with Tomacat 7 and java (some) download all we need from the folde
 $ how to get folder
 $ tar -xvf apache-tomcat-7.0.82.tar.gz
 $ mv WebGoat-5.4.war apache-tomcat-7.0.82/webapps/WebGoat.war
-$ password config file
+$ mv tomcat-users.xml apache-tomcat-7.0.82/config/tomcat-users.xml
 $ rm apache-tomcat-7.0.82.tar.gz
 ```
 Now we have all setup, start tomcat using `catalina.sh`
