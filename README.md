@@ -52,7 +52,7 @@ insert into schoolmate.users (username,password) values ('Larry Stooge',md5('Lar
 to do
 
 ##
-![](https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png "JWebUnit" | height=70)
+![](https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png | height=70)
 ![](https://github.com/filippodp/security.testing/blob/master/images/webscarab_logo.png "WebScarab" | height=70)
 ![](https://github.com/filippodp/security.testing/blob/master/images/webgoat_logo.png "WebGoat" | height=70)
 ![](https://github.com/filippodp/security.testing/blob/master/images/schoolmate_logo.png "SchoolMate" | height=70)
