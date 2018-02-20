@@ -1,5 +1,5 @@
 # Security Testing
-## How to install WebGoat
+## How to install WebGoat + WebScarab
 some text
 ```
 $ some commands
