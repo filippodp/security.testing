@@ -35,3 +35,5 @@ flush privileges;
 insert into schoolmate.users (username,password) values ('Larry Stooge',md5('Larry Stooge'));
 
 
+## How to install/use JWebUnit
+to do
