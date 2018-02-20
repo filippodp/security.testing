@@ -4,7 +4,8 @@ WebGoat works with Tomacat 7 and java download all we need from the folder `WebG
 ```
 $ sudo apt update
 $ sudo apt install -y openjdk-8-jre
-$ how to get folder
+$ git clone git://github.com/filippodp/security.testing
+$ mv security.testing/WebGoat/* . && rm security.testing/
 $ tar -xvf apache-tomcat-7.0.82.tar.gz
 $ mv WebGoat-5.4.war apache-tomcat-7.0.82/webapps/WebGoat.war
 $ mv tomcat-users.xml apache-tomcat-7.0.82/config/tomcat-users.xml
@@ -18,7 +19,8 @@ WebGoat is located at `localhost:8080/WebGoat/attack`, the uername and password 
 
 WebScarab is more easy, just download it from the WebScarab folder (of course the file is `webscarab-20070504-1631.jar`) and run it
 ```
-$ how to get the folder
+$ git clone git://github.com/filippodp/security.testing
+$ mv security.testing/WebScarab/* . && rm security.testing/
 $ java -jar webscarab-20070504-1631.jar
 ```
 ## How to install SchoolMate
