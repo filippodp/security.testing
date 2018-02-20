@@ -50,3 +50,9 @@ insert into schoolmate.users (username,password) values ('Larry Stooge',md5('Lar
 
 ## How to install/use JWebUnit
 to do
+
+##
+![](https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png "JWebUnit")
+![](https://github.com/filippodp/security.testing/blob/master/images/webscarab_logo.png "WebScarab")
+![](https://github.com/filippodp/security.testing/blob/master/images/webgoat_logo.png "WebGoat")
+![](https://github.com/filippodp/security.testing/blob/master/images/schoolmate_logo.png "SchoolMate")
