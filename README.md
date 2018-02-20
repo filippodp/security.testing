@@ -15,9 +15,9 @@ Now we have all setup, start tomcat using `catalina.sh`
 ```
 $ sh apache-tomcat-7.0.82/bin/catalina.sh start
 ```
-WebGoat is located at `localhost:8080/WebGoat/attack`, the uername and password are `guest` and `guest`. Enjoy haking!
+WebGoat is located at `localhost:8080/WebGoat/attack`, the user and pswd are `guest` and `guest`. Enjoy haking!
 
-WebScarab is more easy, just download it from the WebScarab folder (of course the file is `webscarab-20070504-1631.jar`) and run it
+WebScarab is more easy to install, just download it from the `WebScarab` folder (of course the file is `webscarab-20070504-1631.jar`) and run it
 ```
 $ git clone git://github.com/filippodp/security.testing
 $ mv security.testing/WebScarab/* . && rm security.testing/
