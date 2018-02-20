@@ -1,6 +1,6 @@
 # Security Testing
 ## How to install WebGoat + WebScarab
-WebGoat works with Tomacat 7 and java download all we need from the folder `WebGoat` and install them
+WebGoat works with Tomacat 7 and java, you have to download all the material from the `WebGoat` folder and install the software as following
 ```
 $ sudo apt update
 $ sudo apt install -y openjdk-8-jre
