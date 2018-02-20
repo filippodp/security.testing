@@ -1,14 +1,19 @@
 # Security Testing
 ## How to install WebGoat + WebScarab
-some text
+WebGoat works with Tomacat 7 and java (some) download all we need from the folder `WebGoat` and install them
 ```
-$ some commands
-$ install tomcat 7
-$ install java
-$ get WebGoat
-& put it into the folder
+$ how to get folder
+$ tar -xvf apache-tomcat-7.0.82.tar.gz
+$ mv WebGoat-5.4.war apache-tomcat-7.0.82/webapps/WebGoat.war
+$ password config file
+$ rm apache-tomcat-7.0.82.tar.gz
 ```
-some text
+Now we have all setup, start tomcat using `catalina.sh`
+```
+$ sh apache-tomcat-7.0.82/bim/catalina.sh start
+```
+WebGoat is located at `localhost:8080/WebGoat/attack`, the uername and password are `guest` and `guest`. Enjoy haking!
+
 WebScarab is more easy, just download it from the WebScarab folder (of course the file is `webscarab-20070504-1631.jar`) and run it
 ```
 $ java -jar webscarab-20070504-1631.jar
