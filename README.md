@@ -9,7 +9,7 @@ $ get WebGoat
 & put it into the folder
 ```
 some text
-WebScarab is more easy, just download it from the WebScarab folder (of course the file is webscarab-20070504-1631.jar) and run it
+WebScarab is more easy, just download it from the WebScarab folder (of course the file is `webscarab-20070504-1631.jar`) and run it
 ```
 $ java -jar webscarab-20070504-1631.jar
 ```
