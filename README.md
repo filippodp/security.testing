@@ -1,4 +1,3 @@
-
 # Security Testing
 ## How to install WebGoat + WebScarab
 WebGoat works with Tomacat 7 and java, you have to download all the material from the `WebGoat` folder and install the software as following
@@ -30,27 +29,27 @@ First of all we have to install the required software
 $ apt update && apt upgrade
 $ add-apt-repository ppa:ondrej/php
 $ apt update
+# set the password for mysql to root
 $ apt install -y apache2 mysql-server /
                  php5.6 libapache2-mod-php5.6 php5.6-curl /
                  php5.6-gd php5.6-mbstring php5.6-mcrypt /
                  php5.6-mysql php5.6-xml php5.6-xmlrpc
 $ wget -O SchoolMate.tar.gz https://netix.dl.sourceforge.net/project/schoolmate/SchoolMate/SchoolMate%20V1.5.4/SchoolMate_v1.5.4.tar.gz
-tar -xvf SchoolMate.tar.gz -C /var/www/html
+$ tar -xvf SchoolMate.tar.gz -C /var/www/html
 
+# missing replace sql script and schoomate from github
+# create custom script for value insertion
 ```
-
-
-
-
-
-mysql -u root -p
-
-source SchoolMate.sql;
-create user 'schoolmate'@'localhost' identified by 'schoolmate';
-grant all on schoolmate.* to 'schoolmate'@'localhost';
-flush privileges;
-insert into schoolmate.users (username,password) values ('Larry Stooge',md5('Larry Stooge'));
-
+Lauch `mysql` form terminal and execute
+```
+> mysql -u root -p
+> source SchoolMate.sql;
+> create user 'schoolmate'@'localhost' identified by 'schoolmate';
+> grant all on schoolmate.* to 'schoolmate'@'localhost';
+> flush privileges;
+>
+> insert into schoolmate.users (username,password) values ('schoolmate',md5('schoolmate'));
+```
 
 ## How to install/use JWebUnit
 to do
