@@ -55,5 +55,4 @@ Lauch `mysql` form terminal and execute
 to do
 
 ##
-<img src="https://github.com/filippodp/security.testing/blob/master/images/webgoat_logo.png" alt="WebGoat" height="70">             <img src="https://github.com/filippodp/security.testing/blob/master/images/webscarab_logo.png" alt="WebScarab" height="70">             <img src="https://github.com/filippodp/security.testing/blob/master/images/schoolmate_logo.gif" alt="SchoolMate" height="70">             <img src="https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png" alt="JWebUnit" height="70">
-
+<img src="https://github.com/filippodp/security.testing/blob/master/images/webgoat_logo.png" alt="WebGoat" height="70"><img src="https://github.com/filippodp/security.testing/blob/master/images/webscarab_logo.png" alt="WebScarab" height="70"><img src="https://github.com/filippodp/security.testing/blob/master/images/schoolmate_logo.gif" alt="SchoolMate" height="70"><img src="https://github.com/filippodp/security.testing/blob/master/images/jwebunit_logo.png" alt="JWebUnit" height="70">
