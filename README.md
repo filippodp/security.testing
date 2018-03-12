@@ -48,8 +48,8 @@ Lauch `mysql` form terminal and execute
 > create user 'schoolmate'@'localhost' identified by 'schoolmate';
 > grant all on schoolmate.* to 'schoolmate'@'localhost';
 > flush privileges;
->
-> insert into schoolmate.users (username,password) values ('schoolmate',md5('schoolmate'));
+> source PopulateTables.sql;
+> exit
 ```
 
 ## How to install/use JWebUnit
