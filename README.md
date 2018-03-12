@@ -1,4 +1,4 @@
-   # Security Testing
+# Security Testing
 ## How to install WebGoat + WebScarab
 WebGoat works with Tomacat 7 and java, you have to download all the material from the `WebGoat` folder and install the software as following
 ```
@@ -17,10 +17,11 @@ $ sh apache-tomcat-7.0.82/bin/catalina.sh start
 ```
 WebGoat is located at `localhost:8080/WebGoat/attack`, the user and pswd are `guest` and `guest`. Enjoy haking!
 
-WebScarab is more easy to install, just download it from the `WebScarab` folder (of course the file is `webscarab-20070504-1631.jar`) and run it
+WebScarab is more easy to install, just download it from the `WebScarab` folder (of course the file is `webscarab-20070504-1631.jar`) and run it with `java` command
 ```
 $ git clone git://github.com/filippodp/security.testing
 $ mv security.testing/WebScarab/* . && rm security.testing/
+
 $ java -jar webscarab-20070504-1631.jar
 ```
 ## How to install SchoolMate
