@@ -35,11 +35,10 @@ $ apt install -y apache2 mysql-server /
                  php5.6 libapache2-mod-php5.6 php5.6-curl /
                  php5.6-gd php5.6-mbstring php5.6-mcrypt /
                  php5.6-mysql php5.6-xml php5.6-xmlrpc
-$ wget -O SchoolMate.tar.gz https://netix.dl.sourceforge.net/project/schoolmate/SchoolMate/SchoolMate%20V1.5.4/SchoolMate_v1.5.4.tar.gz
+$ git clone git://github.com/filippodp/security.testing
+$ mv security.testing/SchoolMate/* . && rm security.testing/                 
 $ tar -xvf SchoolMate.tar.gz -C /var/www/html
-
-# missing replace sql script and schoomate from github
-# create custom script for value insertion
+$ cd /var/www/html
 ```
 Lauch `mysql` form terminal and execute
 ```
